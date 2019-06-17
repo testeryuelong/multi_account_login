@@ -1,0 +1,11 @@
+startBrowser-->chrome
+accessWebsite-->https://mail.126.com/
+forcedWait-->3
+switchIframes-->//iframe[contains(@id,"x-URS-iframe")]
+inputWords-->//input[@name="email"]-->username
+inputWords-->//input[@name="password"]-->password
+buttonClick-->//a[@id="dologin"]
+forcedWait-->3
+assertString-->ÍË³ö
+forcedWait-->3
+closeBrowser
